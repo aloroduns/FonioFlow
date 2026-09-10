@@ -37,6 +37,9 @@ The application exposes normalized JSON endpoints:
 - `/api/sellers?q=flour&market=France`
 - `/api/trade-availability?country=Guinea&year=2024`
 - `/api/survey?measure=Awareness`
+- `/api/demand-submissions`
+- `/api/verifications` (administrator)
+- `/api/wholesale-inquiries` (administrator)
 
 Every response includes provenance metadata: `status`, `source`, `sourceTimestamp`, `retrievedAt`, record count, missing-data count and warnings. The screens display this as **Live data**, **Validated snapshot**, or **Fallback active**. The default `DATA_PROVIDER=static` serves validated competition snapshots. Set `DATA_PROVIDER=live` in Vercel to enable supported live provider requests; failed, rate-limited, timed-out or invalid responses fall back to a valid in-memory cache and then the static snapshot.
 

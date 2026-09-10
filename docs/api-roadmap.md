@@ -26,6 +26,18 @@ Successful endpoints return `{ data, meta }`. `meta` contains `status`, `source`
 | `/api/trade-availability` | `country`, `year` |
 | `/api/survey` | `measure` |
 
+## Maintained-record endpoints
+
+| Endpoint | Method | Access | Purpose |
+|---|---|---|---|
+| `/api/sellers` | GET | Public | Search approved database sellers; H5 snapshot fallback |
+| `/api/verifications` | POST | Administrator | Append a seller verification event |
+| `/api/wholesale-inquiries` | GET, POST | Administrator | Review or append standardized supplier inquiries |
+| `/api/demand-submissions` | POST | Public | Record consented, non-identifying demand evidence |
+| `/api/demand-submissions` | GET | Administrator | Review recent demand submissions |
+
+Administrative requests must send `Authorization: Bearer <ADMIN_API_TOKEN>`. Write bodies are strictly validated with Zod; unknown fields are rejected. Public demand writes are limited to five requests per source address per minute. Never embed the administrator token in a client component or `NEXT_PUBLIC_` variable.
+
 The UI and future clients should call these FonioFlow endpoints rather than provider URLs. This keeps provider response formats, keys and failures out of interface components.
 
 ## Provider mode
