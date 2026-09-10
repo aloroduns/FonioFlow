@@ -8,6 +8,7 @@ FonioFlow is a seven-screen evidence explorer for testing six hypotheses about f
 - `components/fonioflow/` — one reusable screen component per hypothesis
 - `components/ui/` — accessible interface primitives
 - `data/generated/` — versioned JSON contracts used by the application
+- `database/schema.sql` — PostgreSQL schema for records requiring maintenance
 - `lib/` — shared types, formatting and data access
 - `scripts/export_data.py` — workbook-to-JSON pipeline
 - `tests/` — fast data-contract checks
@@ -19,7 +20,7 @@ Run `python scripts/export_data.py` after updating an approved H1–H6 workbook.
 
 ## Validate
 
-Run `npm test` to build the application and check the data contracts.
+Run `npm test` to build the application and check the data contracts. Follow `docs/testing.md` for the browser and failure-mode release matrix.
 
 ## Deploy to Vercel
 
@@ -37,7 +38,18 @@ The application exposes normalized JSON endpoints:
 - `/api/trade-availability?country=Guinea&year=2024`
 - `/api/survey?measure=Awareness`
 
-Every response includes provenance metadata: `status`, `source`, `sourceTimestamp`, `retrievedAt`, record count, missing-data count and warnings. The default `DATA_PROVIDER=static` serves validated competition snapshots. Set `DATA_PROVIDER=live` in Vercel to enable supported live provider requests; failed, timed-out or invalid responses fall back to a valid in-memory cache and then the static snapshot.
+Every response includes provenance metadata: `status`, `source`, `sourceTimestamp`, `retrievedAt`, record count, missing-data count and warnings. The screens display this as **Live data**, **Validated snapshot**, or **Fallback active**. The default `DATA_PROVIDER=static` serves validated competition snapshots. Set `DATA_PROVIDER=live` in Vercel to enable supported live provider requests; failed, rate-limited, timed-out or invalid responses fall back to a valid in-memory cache and then the static snapshot.
+
+## Documentation
+
+- `docs/api-roadmap.md` — endpoints, query parameters and resilience behavior
+- `docs/data-dictionary.md` — field meanings and units
+- `docs/data-architecture.md` — data-flow architecture diagram
+- `docs/testing.md` — automated and manual release checks
+- `docs/database.md` — maintained-record database setup
+- `docs/vercel-deployment.md` — deployment and environment variables
+
+The committed files in `data/generated/` are the backup demonstration dataset. They keep every screen functional when an external provider is unavailable.
 
 ## Competition scope
 

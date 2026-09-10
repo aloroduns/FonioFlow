@@ -12,6 +12,20 @@
 | `GET /api/trade-availability` | FAOSTAT, UN Comtrade and World Bank | `h6-demand.json` |
 | `GET /api/survey` | Aggregated exploratory survey | `h6-demand.json` |
 
+## Response contract
+
+Successful endpoints return `{ data, meta }`. `meta` contains `status`, `source`, `sourceTimestamp`, `retrievedAt`, `recordCount`, `missingDataCount` and `warnings`. An empty filtered result is a valid HTTP 200 response with `data: []`. An invalid year returns HTTP 400.
+
+| Endpoint | Optional query parameters |
+|---|---|
+| `/api/production` | `country`, `year` |
+| `/api/processing` | `country` |
+| `/api/routes` | `origin`, `destination` |
+| `/api/prices` | `grain` |
+| `/api/sellers` | `q`, `market` |
+| `/api/trade-availability` | `country`, `year` |
+| `/api/survey` | `measure` |
+
 The UI and future clients should call these FonioFlow endpoints rather than provider URLs. This keeps provider response formats, keys and failures out of interface components.
 
 ## Provider mode
