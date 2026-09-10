@@ -1,42 +1,45 @@
-# Live API roadmap
+# FonioFlow data API
 
-## Competition mode
+## Stable application endpoints
 
-The application currently uses dated JSON snapshots generated from the validated workbooks. This is the default because it is reproducible and does not depend on third-party uptime during judging.
+| Endpoint | External provider | Default fallback |
+|---|---|---|
+| `GET /api/production` | FAOSTAT QCL | `h1-production.json` |
+| `GET /api/processing` | Curated research | `h2-processing.json` |
+| `GET /api/routes` | Curated trade and road evidence | `h3-routes.json` |
+| `GET /api/prices` | Curated price observations | `h4-prices.json` |
+| `GET /api/sellers` | Verified seller research | `h5-sellers.json` |
+| `GET /api/trade-availability` | FAOSTAT, UN Comtrade and World Bank | `h6-demand.json` |
+| `GET /api/survey` | Aggregated exploratory survey | `h6-demand.json` |
 
-## Provider boundary
+The UI and future clients should call these FonioFlow endpoints rather than provider URLs. This keeps provider response formats, keys and failures out of interface components.
 
-Screens obtain data through `lib/data.ts`. Future integrations should update this layer or add server-side provider modules; screens should not call external services directly.
+## Provider mode
 
-## Recommended order after the competition
+`DATA_PROVIDER=static` is the safe competition default. It serves reviewed snapshots deterministically.
 
-1. **Database API** — store cleaned snapshots, source metadata, access dates and verification states in PostgreSQL or another managed database.
-2. **FAOSTAT provider** — refresh production, harvested area and yield on a scheduled job.
-3. **UN Comtrade provider** — refresh HS 100840 trade records and retain the raw response plus query parameters.
-4. **Supplier administration workflow** — verified sellers submit or update records; a reviewer approves them before publication.
-5. **Retailer integrations** — add only where an official API or authorized feed exists. Do not scrape unstable retail pages as the main production pipeline.
+`DATA_PROVIDER=live` enables external refreshes where connectors exist. Live production requests require a country or year filter. Live trade-and-availability requests require both a supported country and year. Other endpoints continue serving curated snapshots because no reliable public live provider covers them.
 
-## Server-side pattern
+## Reliability behavior
+
+1. Fetch with an abort timeout.
+2. Normalize provider fields to FonioFlow contracts.
+3. Validate the normalized response with Zod.
+4. Save a short-lived in-memory copy after successful validation.
+5. Return the valid cache when a subsequent provider request fails.
+6. Return the reviewed static snapshot if no valid cache exists.
+
+The `meta.status` field is always one of `live`, `cached` or `static`. Warnings explain provider failures and fallback use. Missing values remain `null`; they are not silently presented as observed zeroes.
+
+## Availability calculation
 
 ```text
-External API
-    → server-side connector
-    → raw response archive
-    → validation and normalization
-    → database/snapshot
-    → shared data repository
-    → React screen
+estimated domestic availability tonnes = production + imports - exports
+availability kg per person = estimated domestic availability tonnes × 1,000 / population
 ```
 
-API keys belong in hosted environment variables and `.env.local`, never in Git. Add caching, retry limits, rate-limit handling, source timestamps and a fallback to the last valid snapshot before enabling a live provider in the public application.
+If an import or export flow is absent, the calculation uses zero only as an explicit operational assumption and records a missing-data warning.
 
-## Suggested endpoints
+## Vercel environment variables
 
-- `GET /api/production?year=2024&country=Guinea`
-- `GET /api/processors?country=Senegal`
-- `GET /api/routes?origin=Mali&destination=France`
-- `GET /api/prices?grain=Fonio`
-- `GET /api/sellers?market=United%20Kingdom`
-- `GET /api/availability?country=Guinea&year=2024`
-
-These are FonioFlow-owned endpoints. They shield the interface from changes in external response formats.
+Copy the keys from `.env.example` into Vercel Project Settings. Keep API keys secret. The World Bank connector requires no key. UN Comtrade can use its public preview endpoint but an approved subscription key provides more dependable limits. FAOSTAT base URL and key remain configurable so the connector can track provider portal changes without altering the application contract.
