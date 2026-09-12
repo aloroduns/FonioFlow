@@ -18,7 +18,7 @@ FonioFlow is a seven-screen evidence explorer for testing six hypotheses about f
 
 Run `python scripts/export_data.py` after updating an approved H1–H6 workbook. Review the generated changes before committing them.
 
-For a new Google Forms survey export, run `python scripts/process_survey.py INPUT.csv OUTPUT.json --merge-app-json data/generated/h6-demand.json`, review the audit block, then replace `data/generated/h6-demand.json` with the approved output. The survey processor retains missing values and records duplication indicators.
+For a new Google Forms survey export, run `python scripts/process_survey.py INPUT.xlsx OUTPUT.json --merge-app-json data/generated/h6-demand.json`, review the audit block, then replace `data/generated/h6-demand.json` with the approved output. CSV and Excel inputs are supported. Add `--unique-respondents-confirmed` only when the project owner has verified that every row belongs to a different individual.
 
 ## Validate
 

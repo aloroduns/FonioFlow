@@ -1736,7 +1736,7 @@
       "Count": 85,
       "% of respondents": 0.5666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Awareness",
@@ -1744,7 +1744,7 @@
       "Count": 28,
       "% of respondents": 0.18666666666666668,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Awareness",
@@ -1752,7 +1752,7 @@
       "Count": 37,
       "% of respondents": 0.24666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Ever eaten",
@@ -1760,7 +1760,7 @@
       "Count": 130,
       "% of respondents": 0.8666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Ever eaten",
@@ -1768,7 +1768,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Ever eaten",
@@ -1776,7 +1776,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Ever eaten",
@@ -1784,7 +1784,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchased",
@@ -1792,7 +1792,7 @@
       "Count": 140,
       "% of respondents": 0.9333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchased",
@@ -1800,7 +1800,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase frequency",
@@ -1808,7 +1808,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase frequency",
@@ -1816,7 +1816,7 @@
       "Count": 135,
       "% of respondents": 0.9,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase frequency",
@@ -1824,7 +1824,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Search/purchase channel",
@@ -1832,7 +1832,7 @@
       "Count": 140,
       "% of respondents": 0.9333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Search/purchase channel",
@@ -1840,7 +1840,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Search/purchase channel",
@@ -1848,7 +1848,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1856,7 +1856,7 @@
       "Count": 15,
       "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1864,7 +1864,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1872,7 +1872,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1880,7 +1880,7 @@
       "Count": 80,
       "% of respondents": 0.5333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1888,7 +1888,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1896,7 +1896,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1904,7 +1904,7 @@
       "Count": 15,
       "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Preferred product",
@@ -1912,7 +1912,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1920,7 +1920,7 @@
       "Count": 55,
       "% of respondents": 0.36666666666666664,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1928,7 +1928,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1936,7 +1936,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1944,7 +1944,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1952,7 +1952,7 @@
       "Count": 40,
       "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1960,7 +1960,7 @@
       "Count": 85,
       "% of respondents": 0.5666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1968,7 +1968,7 @@
       "Count": 15,
       "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1976,7 +1976,7 @@
       "Count": 40,
       "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1984,7 +1984,7 @@
       "Count": 65,
       "% of respondents": 0.43333333333333335,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase motivator",
@@ -1992,7 +1992,7 @@
       "Count": 50,
       "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2000,7 +2000,7 @@
       "Count": 30,
       "% of respondents": 0.2,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2008,7 +2008,7 @@
       "Count": 30,
       "% of respondents": 0.2,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2016,7 +2016,7 @@
       "Count": 95,
       "% of respondents": 0.6333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2024,7 +2024,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2032,7 +2032,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2040,7 +2040,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2048,7 +2048,7 @@
       "Count": 15,
       "% of respondents": 0.1,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2056,7 +2056,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2064,7 +2064,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Purchase barrier",
@@ -2072,7 +2072,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select option count; denominator is all submitted records"
+      "Counting note": "Multi-select option count; denominator is all respondent records"
     },
     {
       "Measure": "Willingness to pay",
@@ -2080,7 +2080,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H4/H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Willingness to pay",
@@ -2088,7 +2088,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H4/H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Willingness to pay",
@@ -2096,7 +2096,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H4/H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Willingness to pay",
@@ -2104,7 +2104,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H4/H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Willingness to pay",
@@ -2112,7 +2112,7 @@
       "Count": 110,
       "% of respondents": 0.7333333333333333,
       "Hypothesis": "H4/H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Three-month purchase likelihood",
@@ -2120,7 +2120,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Three-month purchase likelihood",
@@ -2128,7 +2128,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Three-month purchase likelihood",
@@ -2136,7 +2136,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Three-month purchase likelihood",
@@ -2144,7 +2144,7 @@
       "Count": 55,
       "% of respondents": 0.36666666666666664,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Three-month purchase likelihood",
@@ -2152,7 +2152,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Farmer-support influence",
@@ -2160,7 +2160,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Farmer-support influence",
@@ -2168,7 +2168,7 @@
       "Count": 50,
       "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Farmer-support influence",
@@ -2176,7 +2176,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Farmer-support influence",
@@ -2184,7 +2184,7 @@
       "Count": 40,
       "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Farmer-support influence",
@@ -2192,7 +2192,7 @@
       "Count": 45,
       "% of respondents": 0.3,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Country of residence",
@@ -2200,7 +2200,7 @@
       "Count": 110,
       "% of respondents": 0.7333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Country of residence",
@@ -2208,7 +2208,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Country of residence",
@@ -2216,7 +2216,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Country of residence",
@@ -2224,7 +2224,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2232,7 +2232,7 @@
       "Count": 25,
       "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2240,7 +2240,7 @@
       "Count": 50,
       "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2248,7 +2248,7 @@
       "Count": 50,
       "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2256,7 +2256,7 @@
       "Count": 10,
       "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2264,7 +2264,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Age range",
@@ -2272,7 +2272,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "West African connection",
@@ -2280,7 +2280,7 @@
       "Count": 45,
       "% of respondents": 0.3,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "West African connection",
@@ -2288,7 +2288,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "West African connection",
@@ -2296,7 +2296,7 @@
       "Count": 95,
       "% of respondents": 0.6333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Dietary preference",
@@ -2304,7 +2304,7 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Dietary preference",
@@ -2312,7 +2312,7 @@
       "Count": 5,
       "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     },
     {
       "Measure": "Dietary preference",
@@ -2320,16 +2320,19 @@
       "Count": 20,
       "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response count; denominator is all submitted records"
+      "Counting note": "Single response count; denominator is all respondent records"
     }
   ],
   "surveyAudit": {
     "submitted_records": 150,
-    "exact_duplicate_rows": 102,
-    "unique_timestamps": 29,
+    "respondent_records": 150,
+    "unique_respondents": 150,
+    "respondent_identity_verified": true,
+    "exact_duplicate_rows": 67,
+    "unique_timestamps": 64,
     "unique_answer_patterns": 48,
-    "date_first": "9/7/2026 13:37:10",
-    "date_last": "9/11/2026 11:59:28",
+    "date_first": "2026-09-07 10:20:49",
+    "date_last": "2026-09-11 11:59:58",
     "missing_by_field": {
       "What would most encourage you to buy fonio? Select up to three.": 10,
       "What is the most you would be willing to pay for a one-pound package of whole-grain fonio?": 5,
@@ -2339,6 +2342,7 @@
       "Do you have a West African cultural or family connection?": 5,
       "Dietary preference": 105
     },
-    "warning": "All 150 submitted rows were retained at the project owner's direction. The file contains 102 exact duplicate rows and 29 unique timestamps, so the records cannot be treated as 150 independently verified respondents."
+    "quality_note": "The project owner confirmed that all 150 records represent unique individuals. The 67 identical rows reflect matching recorded answers, not duplicate respondents.",
+    "warning": ""
   }
 }
