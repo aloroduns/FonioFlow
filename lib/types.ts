@@ -5,4 +5,5 @@ export type RoadRouteRecord = {"Route ID":string;Origin:string;Destination:strin
 export type PriceRecord = {Grain:string;"Average USD/kg":number;"Comparable products":number;"Evidence status":string};
 export type SellerRecord = {seller_id:string;seller_name:string;market:string;channel:string;product_form:string;verification_status:string;availability_status:string;origin:string;source_url:string;verified_date:string};
 export type AvailabilityRecord = {country:string;year:number;availability_kg_per_person:number};
-export type SurveyRecord = {Measure:string;"Response option":string;"% of respondents":number};
+export type SurveyRecord = {Measure:string;"Response option":string;Count:number;"% of respondents":number;Hypothesis:string;"Counting note":string};
+export type SurveyAudit = {submitted_records:number;exact_duplicate_rows:number;unique_timestamps:number;unique_answer_patterns:number;warning:string};

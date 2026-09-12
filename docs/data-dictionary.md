@@ -18,7 +18,9 @@ All quantities retain the units shown below. Missing observations remain `null` 
 | Sellers | `availability_status` | text | Availability observed on the verification date |
 | Availability | `estimated_domestic_availability_tonnes` | tonnes | Production + imports − exports |
 | Availability | `availability_kg_per_person` | kg/person | Estimated availability divided by population |
-| Survey | `% of respondents` | decimal fraction | Share of the 28-response exploratory sample |
+| Survey | `% of respondents` | decimal fraction | Share of 150 submitted records retained for exploratory analysis |
+| Survey audit | `exact_duplicate_rows` | integer | Fully duplicated CSV rows detected during validation |
+| Survey audit | `unique_timestamps` | integer | Distinct timestamps in the submitted file |
 | API metadata | `status` | live/cached/static | Provenance state of the returned records |
 | API metadata | `sourceTimestamp` | date/text | Reference date supplied by the source or snapshot |
 | API metadata | `missingDataCount` | integer | Returned records containing missing fields or flags |

@@ -28,6 +28,10 @@ DATASETS = {
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for filename, payload in DATASETS.items():
+        if filename == "h6-demand.json" and (OUTPUT_DIR / filename).exists():
+            current = json.loads((OUTPUT_DIR / filename).read_text(encoding="utf-8"))
+            payload["survey"] = current["survey"]
+            payload["surveyAudit"] = current["surveyAudit"]
         (OUTPUT_DIR / filename).write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
         print(filename, {key: len(value) for key, value in payload.items()})
 

@@ -18,6 +18,8 @@ FonioFlow is a seven-screen evidence explorer for testing six hypotheses about f
 
 Run `python scripts/export_data.py` after updating an approved H1–H6 workbook. Review the generated changes before committing them.
 
+For a new Google Forms survey export, run `python scripts/process_survey.py INPUT.csv OUTPUT.json --merge-app-json data/generated/h6-demand.json`, review the audit block, then replace `data/generated/h6-demand.json` with the approved output. The survey processor retains missing values and records duplication indicators.
+
 ## Validate
 
 Run `npm test` to build the application and check the data contracts. Follow `docs/testing.md` for the browser and failure-mode release matrix.
@@ -49,6 +51,7 @@ Every response includes provenance metadata: `status`, `source`, `sourceTimestam
 - `docs/data-dictionary.md` — field meanings and units
 - `docs/data-architecture.md` — data-flow architecture diagram
 - `docs/testing.md` — automated and manual release checks
+- `docs/survey-methodology.md` — H6 cleaning rules, findings and duplication disclosure
 - `docs/database.md` — maintained-record database setup
 - `docs/vercel-deployment.md` — deployment and environment variables
 

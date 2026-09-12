@@ -7,7 +7,7 @@ export function Metric({label,value,note}:{label:string;value:string;note?:strin
 export function ScreenTitle({code,title,text}:{code:string;title:string;text:string}){return <section className="page-title"><div><span>{code}</span><h1>{title}</h1></div><p>{text}</p><EvidenceStatus/></section>}
 
 export function DataStatus({meta,loading=false}:{meta:ApiMetadata;loading?:boolean}){
-  const fallback=meta.status==="cached"||meta.warnings.length>0;
+  const fallback=meta.status==="cached"||meta.warnings.some(warning=>/fallback|unavailable|aborted|failed|timeout/i.test(warning));
   const label=loading?"Checking data source":fallback?"Fallback active":meta.status==="live"?"Live data":"Validated snapshot";
   const Icon=loading?Cloud:fallback?AlertTriangle:meta.status==="live"?Cloud:CheckCircle2;
   const updated=meta.sourceTimestamp||meta.retrievedAt;

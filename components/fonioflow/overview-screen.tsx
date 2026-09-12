@@ -9,7 +9,7 @@ const cards=[
   {id:"H3",name:"Distribution",question:"Can fonio reach markets reliably?",Icon:Route,color:"#417C74",outcome:"Inconclusive",tone:"inconclusive",rationale:"Long inland routes are documented, but freight quotations and shipment-performance records are still missing."},
   {id:"H4",name:"Price",question:"Is fonio commercially competitive?",Icon:Scale,color:"#7C5D8E",outcome:"Preliminary support",tone:"partial",rationale:"Observed fonio retail prices exceed millet, rice and quinoa averages, although the sample is not fully verified."},
   {id:"H5",name:"Sourcing",question:"Can buyers find reliable sellers?",Icon:PackageSearch,color:"#2D6E8D",outcome:"Supported",tone:"supported",rationale:"Seller records exist, but recurring stock, delivery, origin, price and minimum-order gaps hinder reliable sourcing."},
-  {id:"H6",name:"Demand",question:"Is consumer demand understood?",Icon:Users,color:"#A45147",outcome:"Partially supported",tone:"partial",rationale:"The exploratory survey shows low awareness, but 28 responses cannot establish the size of consumer demand."},
+  {id:"H6",name:"Demand",question:"Is consumer demand understood?",Icon:Users,color:"#A45147",outcome:"Partially supported",tone:"partial",rationale:"Submitted records show low awareness and conditional purchase interest, but substantial duplication prevents population-level inference."},
 ] as const;
 
 export function OverviewScreen(){

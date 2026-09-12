@@ -1733,442 +1733,612 @@
     {
       "Measure": "Awareness",
       "Response option": "No",
-      "Count": 19,
-      "% of respondents": 0.6785714285714286,
+      "Count": 85,
+      "% of respondents": 0.5666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Awareness",
       "Response option": "Not sure",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
+      "Count": 28,
+      "% of respondents": 0.18666666666666668,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Awareness",
       "Response option": "Yes",
-      "Count": 5,
-      "% of respondents": 0.17857142857142858,
+      "Count": 37,
+      "% of respondents": 0.24666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Ever eaten",
       "Response option": "No",
-      "Count": 24,
-      "% of respondents": 0.8571428571428571,
+      "Count": 130,
+      "% of respondents": 0.8666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Ever eaten",
       "Response option": "Not sure",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Ever eaten",
       "Response option": "Yes, but more than one year ago",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Ever eaten",
       "Response option": "Yes, within the past year",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Purchased",
       "Response option": "No",
-      "Count": 26,
-      "% of respondents": 0.9285714285714286,
+      "Count": 140,
+      "% of respondents": 0.9333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Purchased",
       "Response option": "Yes",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Purchase frequency",
+      "Response option": "Every few months",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Purchase frequency",
+      "Response option": "I have never purchased it",
+      "Count": 135,
+      "% of respondents": 0.9,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Purchase frequency",
+      "Response option": "Once or twice",
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Search/purchase channel",
       "Response option": "I have never looked for it",
-      "Count": 26,
-      "% of respondents": 0.9285714285714286,
+      "Count": 140,
+      "% of respondents": 0.9333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Search/purchase channel",
       "Response option": "Restaurant",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Search/purchase channel",
       "Response option": "Supermarket",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H5/H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Beverage product",
-      "Count": 3,
-      "% of respondents": 0.10714285714285714,
+      "Count": 15,
+      "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Flour",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Not interested",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Not sure",
-      "Count": 14,
-      "% of respondents": 0.5,
+      "Count": 80,
+      "% of respondents": 0.5333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Precooked or quick-cooking fonio",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Ready-to-eat meal",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Snack",
-      "Count": 3,
-      "% of respondents": 0.10714285714285714,
+      "Count": 15,
+      "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Preferred product",
       "Response option": "Whole grain",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Availability nearby",
-      "Count": 11,
-      "% of respondents": 0.39285714285714285,
+      "Count": 55,
+      "% of respondents": 0.36666666666666664,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Clear country of origin",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Easy recipes",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Information about farmer impact",
-      "Count": 3,
-      "% of respondents": 0.10714285714285714,
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Lower price",
-      "Count": 8,
-      "% of respondents": 0.2857142857142857,
+      "Count": 40,
+      "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Nutritional information",
-      "Count": 15,
-      "% of respondents": 0.5357142857142857,
+      "Count": 85,
+      "% of respondents": 0.5666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Online delivery",
-      "Count": 3,
-      "% of respondents": 0.10714285714285714,
+      "Count": 15,
+      "% of respondents": 0.1,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Organic certification",
-      "Count": 6,
-      "% of respondents": 0.21428571428571427,
+      "Count": 40,
+      "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Product sample or tasting",
-      "Count": 11,
-      "% of respondents": 0.39285714285714285,
+      "Count": 65,
+      "% of respondents": 0.43333333333333335,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase motivator",
       "Response option": "Trusted brand",
-      "Count": 8,
-      "% of respondents": 0.2857142857142857,
+      "Count": 50,
+      "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "I am unsure about the taste",
-      "Count": 6,
-      "% of respondents": 0.21428571428571427,
+      "Count": 30,
+      "% of respondents": 0.2,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "I do not know how to prepare it",
-      "Count": 6,
-      "% of respondents": 0.21428571428571427,
+      "Count": 30,
+      "% of respondents": 0.2,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "I do not know what it is",
-      "Count": 17,
-      "% of respondents": 0.6071428571428571,
+      "Count": 95,
+      "% of respondents": 0.6333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "I do not trust the quality or source",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "I prefer other grains",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "It is difficult to find",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "It is too expensive",
-      "Count": 3,
-      "% of respondents": 0.10714285714285714,
+      "Count": 15,
+      "% of respondents": 0.1,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "Nothing would prevent me",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "Other",
-      "Count": 5,
-      "% of respondents": 0.17857142857142858,
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Purchase barrier",
       "Response option": "Package size is unsuitable",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6/H5/H4",
-      "Counting note": "Multi-select; parsed option count"
+      "Counting note": "Multi-select option count; denominator is all submitted records"
     },
     {
       "Measure": "Willingness to pay",
       "Response option": "3 to 4.99 dollars",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
-      "Hypothesis": "H4",
-      "Counting note": "Single response; exact count"
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H4/H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Willingness to pay",
       "Response option": "5 to 6.99 dollars",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
-      "Hypothesis": "H4",
-      "Counting note": "Single response; exact count"
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H4/H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Willingness to pay",
       "Response option": "9 dollars or more",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
-      "Hypothesis": "H4",
-      "Counting note": "Single response; exact count"
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H4/H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Willingness to pay",
       "Response option": "Less than 3 dollars",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
-      "Hypothesis": "H4",
-      "Counting note": "Single response; exact count"
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
+      "Hypothesis": "H4/H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Willingness to pay",
       "Response option": "Not sure",
-      "Count": 20,
-      "% of respondents": 0.7142857142857143,
-      "Hypothesis": "H4",
-      "Counting note": "Single response; exact count"
+      "Count": 110,
+      "% of respondents": 0.7333333333333333,
+      "Hypothesis": "H4/H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Three-month purchase likelihood",
       "Response option": "Neither likely nor unlikely",
-      "Count": 5,
-      "% of respondents": 0.17857142857142858,
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Three-month purchase likelihood",
       "Response option": "Somewhat likely",
-      "Count": 5,
-      "% of respondents": 0.17857142857142858,
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Three-month purchase likelihood",
       "Response option": "Somewhat unlikely",
-      "Count": 4,
-      "% of respondents": 0.14285714285714285,
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Three-month purchase likelihood",
       "Response option": "Very likely",
-      "Count": 9,
-      "% of respondents": 0.32142857142857145,
+      "Count": 55,
+      "% of respondents": 0.36666666666666664,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Three-month purchase likelihood",
       "Response option": "Very unlikely",
-      "Count": 5,
-      "% of respondents": 0.17857142857142858,
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Farmer-support influence",
       "Response option": "Less likely",
-      "Count": 2,
-      "% of respondents": 0.07142857142857142,
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Farmer-support influence",
       "Response option": "Much more likely to purchase",
-      "Count": 10,
-      "% of respondents": 0.35714285714285715,
+      "Count": 50,
+      "% of respondents": 0.3333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Farmer-support influence",
       "Response option": "No difference",
-      "Count": 1,
-      "% of respondents": 0.03571428571428571,
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Farmer-support influence",
       "Response option": "Not sure",
-      "Count": 6,
-      "% of respondents": 0.21428571428571427,
+      "Count": 40,
+      "% of respondents": 0.26666666666666666,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
     },
     {
       "Measure": "Farmer-support influence",
       "Response option": "Slightly more likely",
-      "Count": 9,
-      "% of respondents": 0.32142857142857145,
+      "Count": 45,
+      "% of respondents": 0.3,
       "Hypothesis": "H6",
-      "Counting note": "Single response; exact count"
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Country of residence",
+      "Response option": "Nigeria",
+      "Count": 110,
+      "% of respondents": 0.7333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Country of residence",
+      "Response option": "Nil",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Country of residence",
+      "Response option": "Pakistan",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Country of residence",
+      "Response option": "United Kingdom",
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "18-24",
+      "Count": 25,
+      "% of respondents": 0.16666666666666666,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "25-34",
+      "Count": 50,
+      "% of respondents": 0.3333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "35-44",
+      "Count": 50,
+      "% of respondents": 0.3333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "45-54",
+      "Count": 10,
+      "% of respondents": 0.06666666666666667,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "55-64",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Age range",
+      "Response option": "65+",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "West African connection",
+      "Response option": "No",
+      "Count": 45,
+      "% of respondents": 0.3,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "West African connection",
+      "Response option": "Prefer not to say",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "West African connection",
+      "Response option": "Yes",
+      "Count": 95,
+      "% of respondents": 0.6333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Dietary preference",
+      "Response option": "Gluten-free",
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Dietary preference",
+      "Response option": "Other",
+      "Count": 5,
+      "% of respondents": 0.03333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
+    },
+    {
+      "Measure": "Dietary preference",
+      "Response option": "Vegetarian",
+      "Count": 20,
+      "% of respondents": 0.13333333333333333,
+      "Hypothesis": "H6",
+      "Counting note": "Single response count; denominator is all submitted records"
     }
-  ]
+  ],
+  "surveyAudit": {
+    "submitted_records": 150,
+    "exact_duplicate_rows": 102,
+    "unique_timestamps": 29,
+    "unique_answer_patterns": 48,
+    "date_first": "9/7/2026 13:37:10",
+    "date_last": "9/11/2026 11:59:28",
+    "missing_by_field": {
+      "What would most encourage you to buy fonio? Select up to three.": 10,
+      "What is the most you would be willing to pay for a one-pound package of whole-grain fonio?": 5,
+      "What is the main thing you would want to know before purchasing fonio?": 25,
+      "Country of residence": 20,
+      "Age range": 5,
+      "Do you have a West African cultural or family connection?": 5,
+      "Dietary preference": 105
+    },
+    "warning": "All 150 submitted rows were retained at the project owner's direction. The file contains 102 exact duplicate rows and 29 unique timestamps, so the records cannot be treated as 150 independently verified respondents."
+  }
 }
